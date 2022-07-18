@@ -1,0 +1,39 @@
+Create proc Sp_Agregar
+@nombre varchar(50)='',
+@clave varchar(30)='',
+@edad smallint=''
+  as
+    begin
+	insert into Usuario (Nombre,Clave,Edad) values (@nombre,@clave,@edad)
+end
+
+-----------------------
+create procedure sp_BorrarUsuario
+@codigo int
+as
+  begin
+  delete from Usuario where Codigo=@codigo
+end
+------------------------
+create procedure sp_ActualizarUsuario
+@codigo int,
+@nombre varchar(50),
+@clave varchar(30),
+@edad smallint
+as
+ begin
+  update Usuario set Nombre = @nombre, Clave= @clave, Edad= @edad where Codigo=@codigo
+end
+------------------------
+ALTER proc [dbo].[SP_ConsultarUsuario]
+ as
+ begin
+ select*from Usuario
+ end
+---------------------------------------
+create proc sp_ConsultarUsuarioFiltro
+@nombre varchar(50)
+  as
+   begin
+     select * from Usuario where Nombre=@nombre
+   end

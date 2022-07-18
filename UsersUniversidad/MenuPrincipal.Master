@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MenuPrincipal.master.cs" Inherits="UsersUniversidad.MenuPrincipal" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="content-type" content="text/html"; charset="utf-8" />
+    <title>Menú Principal</title>
+    <link href="css/MenuEstilos.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <h1 class="ajuste">Menú Universidad UH</h1>
+        <div class="user">Bienvenido(a) <asp:Label ID="lUser" runat="server"></asp:Label>
+            <br />
+            <asp:Button Class="button button5" ID="bLogOut" runat="server" Onclick="bLogOut_Click" Text="Cerrar sesión"/>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="Inicio.aspx">Inicio</a></li>
+                <li><a href="Noticias.aspx">Noticias</a></li>
+                <li><a href="CatalogoUsers.aspx">Catálogo</a></li>
+                <li><a href="Contactos.aspx">Contactos</a></li>
+                <li><a href="Ayuda.aspx">Ayuda</a></li>
+            </ul>
+        </nav>
+        <div class="ContentPlace">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

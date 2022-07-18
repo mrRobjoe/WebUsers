@@ -1,0 +1,7 @@
+C:\Users\enriq\OneDrive\Documentos\Universidad\2022\2do Cuatrimestre\Programación2_C#\Sesion7_usersSQL\UsersUniversidad\UsersUniversidad\bin\UsersUniversidad.dll.config
+C:\Users\enriq\OneDrive\Documentos\Universidad\2022\2do Cuatrimestre\Programación2_C#\Sesion7_usersSQL\UsersUniversidad\UsersUniversidad\bin\UsersUniversidad.dll
+C:\Users\enriq\OneDrive\Documentos\Universidad\2022\2do Cuatrimestre\Programación2_C#\Sesion7_usersSQL\UsersUniversidad\UsersUniversidad\bin\UsersUniversidad.pdb
+C:\Users\enriq\OneDrive\Documentos\Universidad\2022\2do Cuatrimestre\Programación2_C#\Sesion7_usersSQL\UsersUniversidad\UsersUniversidad\obj\Debug\UsersUniversidad.csproj.AssemblyReference.cache
+C:\Users\enriq\OneDrive\Documentos\Universidad\2022\2do Cuatrimestre\Programación2_C#\Sesion7_usersSQL\UsersUniversidad\UsersUniversidad\obj\Debug\UsersUniversidad.csproj.CoreCompileInputs.cache
+C:\Users\enriq\OneDrive\Documentos\Universidad\2022\2do Cuatrimestre\Programación2_C#\Sesion7_usersSQL\UsersUniversidad\UsersUniversidad\obj\Debug\UsersUniversidad.dll
+C:\Users\enriq\OneDrive\Documentos\Universidad\2022\2do Cuatrimestre\Programación2_C#\Sesion7_usersSQL\UsersUniversidad\UsersUniversidad\obj\Debug\UsersUniversidad.pdb
