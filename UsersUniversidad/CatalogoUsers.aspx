@@ -2,7 +2,14 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <link href="css/MenuEstilos.css" rel="stylesheet" />
-    <h1>Información de usuarios</h1>
+    <h1 class="positionTitle">Información de usuarios</h1>
+    <div>
+        <p> <b>Ingresar:</b> Para ingresar a Usuario agregar Nombre, Clave y Edad únicamente. <br />
+            <b>Borrar:</b> Para borrar a Usuario debe ingresar el código únicamente. <br />
+            <b>Modificar:</b> Para modificar a Usuario agregar Código, Nombre, Clave y Edad. <br />
+            <b>Consultar:</b> Para consultar a Usuario agregar únicamente el nombre.
+        </p>
+    </div>
     <p>
         <asp:GridView ID="GridView1" runat="server" Height="153px" Width="234px" BackColor="White" BorderColor="#CC9966" BorderStyle="None" BorderWidth="1px" CellPadding="4">
             <FooterStyle BackColor="#FFFFCC" ForeColor="#330099" />

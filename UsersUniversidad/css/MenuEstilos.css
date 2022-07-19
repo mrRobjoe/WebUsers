@@ -320,3 +320,7 @@ footer {
     font-style: italic;
     font-size: larger;
 }
+
+.positionTitle {
+    text-align:center;
+}
